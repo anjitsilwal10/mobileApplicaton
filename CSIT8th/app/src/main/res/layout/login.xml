@@ -44,6 +44,17 @@
         android:inputType="textPassword"
         android:padding="10dp"
         android:textColorHint="@color/red" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_background"
+        android:textColor="@color/white"
+        android:layout_marginHorizontal="70dp"
+        android:textSize="20dp"
+        android:text="Login"
+        android:layout_margin="30dp" />
+
 
 
 
