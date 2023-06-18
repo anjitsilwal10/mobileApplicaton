@@ -21,7 +21,8 @@
         android:textColor="@color/red"
         android:textSize="25dp"/>
 
-    <TextView
+    <EditText
+        android:id="@+id/edtUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="60dp"
@@ -31,7 +32,8 @@
         android:textSize="20dp"
         android:padding="10dp"
         android:textColorHint="@color/red" />
-    <TextView
+    <EditText
+        android:id="@+id/edtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="60dp"
@@ -45,6 +47,7 @@
         android:padding="10dp"
         android:textColorHint="@color/red" />
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
