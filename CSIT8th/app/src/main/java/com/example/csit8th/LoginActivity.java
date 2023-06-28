@@ -2,6 +2,7 @@ package com.example.csit8th;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 import android.view.View;
@@ -11,12 +12,22 @@ import android.widget.Toast;
 public class LoginActivity extends AppCompatActivity {
     private EditText edtUsername, edtPassword;
     private AppCompatButton btnLogin;
+    private Toolbar toolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
         findViews();
+        initToolbar();
+    }
+
+    private void initToolbar(){
+        toolbar=findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setHomeButtonEnabled(false);
+        getSupportActionBar().setDisplayShowTitleEnabled(true);
+        getSupportActionBar().setTitle("Login Page");
     }
 
 
