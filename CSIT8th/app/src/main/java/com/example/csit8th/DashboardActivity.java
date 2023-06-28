@@ -35,9 +35,9 @@ public class DashboardActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
     private void setIcon(){
-        tabLayout.getTabAt(0).setIcon(iconList(0));
-        tabLayout.getTabAt(1).setIcon(iconList(1));
-        tabLayout.getTabAt(2).setIcon(iconList(2));
+        tabLayout.getTabAt(0).setIcon(iconList[0]);
+        tabLayout.getTabAt(1).setIcon(iconList[1]);
+        tabLayout.getTabAt(2).setIcon(iconList[2]);
     }
 
 
